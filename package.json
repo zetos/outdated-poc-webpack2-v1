@@ -1,0 +1,23 @@
+{
+  "name": "webpack-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "./node_modules/.bin/webpack -d --watch",
+    "prod": "./node_modules/.bin/webpack -p",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^0.27.3",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "html-webpack-plugin": "^2.28.0",
+    "node-sass": "^4.5.0",
+    "sass-loader": "^6.0.3",
+    "style-loader": "^0.14.0",
+    "webpack": "^2.2.1"
+  }
+}
